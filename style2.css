@@ -1,0 +1,33 @@
+*{
+    background-color: #dadcde;
+}
+.title{
+    text-align: center;
+    animation: flick infinite;
+    text-shadow: 2px 2px 5px black;
+}
+.details{
+    border: 5px solid rgb(31, 30, 30);
+    padding:3%;  
+    border-radius: 20px;  
+}
+.timming{
+    margin-top: 2%;
+    border: 5px solid rgb(31, 30, 30);
+    padding:3%; 
+    border-radius: 20px; 
+}
+.rules{
+    margin-top: 2%;
+    border: 5px solid rgb(31, 30, 30);
+    padding:3%; 
+    border-radius: 20px; 
+}
+@keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }

@@ -1,9 +1,73 @@
 #complaint{
-    width: 30%;
+    height: 70%;
     border: 5px solid gray;
     padding: 5%;
-    margin: 20%;
+    margin: 15%;
+    align-items: center;
+    justify-content: center; 
 }
-#full-name{
-    padding-bottom: 20px;
+
+.title{
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 2px 2px 5px rgb(158, 162, 234);
 }
+input,
+select,
+textarea,
+label,
+#card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ 
+}
+label
+::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+ input,
+ select,
+ textarea,
+#card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+[type="text"],
+[type="Email"] {
+ width: 100%;
+}
+[type="button"],
+[type="submit"],
+ [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  appearance: button;
+}
+
+ 
+
+
