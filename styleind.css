@@ -1,0 +1,121 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: 'Mooli', sans-serif;
+}
+#building{
+    text-shadow: 5px 5px 2px rgb(44, 185, 171);
+    position: relative;
+    top: 5px;
+    width: 1000px;
+    margin: 10% auto;
+    height: 300px;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#head{
+    position: absolute;
+    top: 0px;
+    font-size: 55px;
+}
+
+.area{
+    font-size: 35px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 3px 3px  black;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 10px;
+    width: 33.33%;
+    height: 60%;
+    margin: 1%;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+.area:hover{
+    transform: scale(1.1);
+    border: 3px solid ;
+    cursor: pointer;
+}
+
+#area1{
+    background-image: url(Admin.jpeg);
+    background-size: 100% 100%;
+}
+
+#area2{
+    background-image: url(Hostel.jpeg);
+    background-size: 100% 100%;
+}
+
+#area3{
+    background-image: url(Mess.jpeg);
+    background-size: 100% 100%;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#community{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 50px;
+    color:rgb(42, 14, 131) ;
+    background-color: aliceblue;
+    border-radius: 35px;
+}
+
+#community:hover{
+    cursor: pointer;
+}
+
+.footer{
+    color: azure;
+    background-color: black;
+    height: 300px;
+    margin: 210px auto 0;
+    width: 80%;
+    background-image: url(buliding1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#footer-message{
+    font-size: 35px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#icon{
+    margin: 7%;
+}
+
+#icon>a{
+    color: white;
+    margin: 10% 4% 0;
+    font-size: 30px;
+}

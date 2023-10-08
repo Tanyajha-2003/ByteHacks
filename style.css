@@ -18,7 +18,8 @@ img{
     background-color:#362FD9;
     color:#EEEEEE;
     border-radius: 7%;
-    padding-left: 20%;   
+    padding-left: 20%; 
+    
 }
 .box-2{
     width: 80%;
@@ -55,9 +56,24 @@ img{
 .title{
     padding-left: 42%;
     font-size: 95%;
-    text-shadow: 2px 2px  2px;
+    text-shadow: 2px 2px  5px rgb(1, 22, 74);
     animation:animate 5s;
 }
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .box-1:hover{
+    background-color: darkblue;
+  }
+  .box-2:hover{
+    background-color:darkblue;
+  }
+  .box-3:hover{
+    background-color:darkblue;
+  }
 @keyframes animate {
     0% {
         transform: translate(-180px);
